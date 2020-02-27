@@ -1,5 +1,5 @@
-secret_number = 6                             #this is the secret number 
-guess_count = 0                             #number of guess count made
+secret_number = randint(0,100)                 #this is the secret number 
+guess_count = 0                                #number of guess count made
 guess_limit = 3                                #maximum number of guess 
 while guess_count < guess_limit :              #while loop
     guess = int(input("enter the number : "))  #enter the number
